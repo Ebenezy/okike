@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+.nav-tabs,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+    outline:0px !important;
+    -webkit-appearance:none!important;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+}

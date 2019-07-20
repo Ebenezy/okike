@@ -1,0 +1,112 @@
+@media (min-width: 320px) and (max-width: 767px) {
+.okike-logo{
+	text-align: center;
+}
+.typer{
+  font-family: Nunito-ExtraBold;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.okike-logo img{
+  width: 50%;
+}
+.press img{
+  width: 60px;
+}
+.okike-slider{
+	margin-bottom: 20px;
+}
+.call-img img{
+	width: 30px;
+}
+.hotlin{
+	font-size: 10px;
+}
+.logo{
+	display: none;
+}
+.logo img{
+	width: 50px;
+}
+.logo-okike{
+  width: 40px;
+  display: block;
+}
+.menu2{
+  display: flex;
+  padding-top: 2px;
+}
+.enter-search{
+  border: 1px solid #ED1C23;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  height: 27px;
+}
+.send-search-btn{
+  color: #FFFFFF;
+  background-color: #ED1C23;
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 20px;
+  height: 27px;
+  margin-right: 5px;
+}
+.navbar-text{
+	display: none;
+}
+.search-img img{
+	width: 42px;
+	/*height: 30px;*/
+}
+.cart-img img{
+	width: 42px;
+	/*height: 30px;*/
+}
+.show-txt{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  padding: 16% 23%;
+}
+.show-txt1 {
+  font-family: Montserrat-ExtraBold;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 38px;
+}
+.show-txt2 {
+  font-family: Montserrat-Medium;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 1em;
+}
+.palmwine-box{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  padding: 14.5% 21%;
+}
+.boli-title {
+  font-family: Montserrat-ExtraBold;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 33px;
+}
+.boli-text {
+  font-family: Montserrat-Medium;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+}
