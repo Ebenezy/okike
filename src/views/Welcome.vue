@@ -14,8 +14,21 @@
               </div>
               <div class="p-t-50">
                   <h2>
-                      <span class="typer" id="main" data-words="#AbachaInLagos,#BoliInLagos,#PalmWineInLagos" data-colors="white" data-delay="100" data-deleteDelay="3000"></span>
-                      <span class="cursor" data-owner="main"></span>
+                      <vue-typer class="typer"
+                                 :text='["#AbachaInLagos","#BoliInLagos","#PalmWineInLagos"]'
+                                 :repeat='Infinity'
+                                 :shuffle='false'
+                                 initial-action='typing'
+                                 :pre-type-delay='70'
+                                 :type-delay='70'
+                                 :pre-erase-delay='2000'
+                                 :erase-delay='250'
+                                 erase-style='select-all'
+                                 :erase-on-complete='false'
+                                 caret-animation='blink'
+                      ></vue-typer>
+                      <!--<span class="typer" id="main" data-words="#AbachaInLagos,#BoliInLagos,#PalmWineInLagos" data-colors="white" data-delay="100" data-deleteDelay="3000"></span>-->
+                      <!--<span class="cursor" data-owner="main"></span>-->
                   </h2>
               </div>
           </div>
@@ -28,3 +41,24 @@
       </div>
   </div>
 </template>
+
+<script>
+    // $('.simpleslide100').each(function(){
+    //     var delay = 7000;
+    //     var speed = 1000;
+    //     var itemSlide = $(this).find('.simpleslide100-item');
+    //     var nowSlide = 0;
+    //
+    //     $(itemSlide).hide();
+    //     $(itemSlide[nowSlide]).show();
+    //     nowSlide++;
+    //     if(nowSlide >= itemSlide.length) {nowSlide = 0;}
+    //
+    //     setInterval(function(){
+    //         $(itemSlide).fadeOut(speed);
+    //         $(itemSlide[nowSlide]).fadeIn(speed);
+    //         nowSlide++;
+    //         if(nowSlide >= itemSlide.length) {nowSlide = 0;}
+    //     },delay);
+    // });
+</script>

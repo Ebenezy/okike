@@ -6,6 +6,7 @@
 </template>
 
 <style>
+    /*@import 'assets/css/bootstrap.css';*/
     @import 'assets/css/okike.css';
     @import 'assets/css/main.css';
     @import 'assets/css/responsive.css';

@@ -34,6 +34,9 @@ Primary use:  Food Service
   flex-direction: column;
   height: 90vh;
 }
+.navbar-txt{
+    width: 30%;
+}
 .typer{
   font-family: Nunito-ExtraBold;
   font-size: 50px;
@@ -126,7 +129,7 @@ Primary use:  Food Service
 }
 .logo-okike{
   width: 40px;
-  display: none;
+  opacity: 0;
 }
 .nav-link{
   text-decoration: none;

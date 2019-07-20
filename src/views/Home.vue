@@ -30,11 +30,11 @@
             <!-- navbar	-->
             <div class="bg-white nav-bar2">
                 <nav class="navbar navbar-expand-lg px-0">
-                    <router-link to="/" class="navbar-brand">
+                    <a to="/" class="navbar-brand">
                         <img class="logo-okike" src="./../assets/images/okike-logo-color.svg" alt="logo">
-                    </router-link>
+                    </a>
                     <button class="navbar-toggler text-dark" data-toggle="collapse" data-target="#navbarSupportedContent">
-                        <span class="fa fa-bars color-pink"></span>
+                        <span class="fa fa-bars color-pink"><font-awesome-icon icon="bars" class="fontawesom "/></span>
                     </button>
 
                     <div class="collapse navbar-collapse bg-menu" id="navbarSupportedContent">
@@ -57,7 +57,7 @@
                         </ul>
 
                     </div>
-                    <div class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></div>
+                    <div class="navbar-txt "></div>
                 </nav>
             </div>
             <!-- navbar	end-->
